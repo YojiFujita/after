@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>外部スクリプト</title>
-    <script src="postcss.config.mjs"></script>
-</head>
-<body>
-    <button onclick="showMessage()">クリックしてアラート表示</button>
-</body>
-</html>
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Start Message</title>
+        </head>
+        <body>
+          <script type="module" src="eslint.config.mjs"></script>
+          <script type="module">
+            import { eslint.config } from "./eslint.config.mjs";
+            eslint.config;
+          </script>
+        </body>
+        </html><!DOCTYPE html>
