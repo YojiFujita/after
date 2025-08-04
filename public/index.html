@@ -5,5 +5,9 @@
         </head>
         <body>
           <script type="module" src="postcss.config.mjs"></script>
+          <script type="module">
+            import { config } from "./postcss.config.mjs";
+            config();
+          </script>
         </body>
         </html>
