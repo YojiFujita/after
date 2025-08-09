@@ -1,0 +1,8 @@
+{
+  "assets": [
+    {
+      "glob": "**/*",
+      "input": "public"
+    }
+  ]
+}
